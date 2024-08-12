@@ -4,6 +4,11 @@
     {
         static void Main(string[] args)
         {
+            NumberGuess();
+        }
+
+        public static void NumberGuess()
+        {
             var r = new Random();
             var favNumber = r.Next(1, 1000);
             //The following code will prompt the user
@@ -23,5 +28,6 @@
                 Console.WriteLine("Nice.");
             }
         }
+        
     }
 }
